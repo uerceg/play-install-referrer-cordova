@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-play-install-referrer": {
+    "source": {
+      "type": "local",
+      "path": "/Users/uerceg/GitHub/private/play-install-referrer-multiplatform/cordova/app/node_modules/cordova-play-install-referrer"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

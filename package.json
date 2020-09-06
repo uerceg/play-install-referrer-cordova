@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "name": "cordova-play-install-referrer",
+    "cordova_name": "Cordova Play Install Referrer",
+    "description": "Play Install Referrer wrapper for Cordova",
+    "license": "MIT License",
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        },
+        {
+            "name": "cordova-android",
+            "version": ">=4.0.0"
+        }
+    ],
+    "keywords": [
+        "play",
+        "install",
+        "referrer"
+    ]
+}

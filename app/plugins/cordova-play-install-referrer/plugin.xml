@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-play-install-referrer"
+    version="1.0.0">
+
+    <name>Play Install Referrer</name>
+    <description>Play Install Referrer wrapper for Cordova</description>
+    <license>MIT License</license>
+    <author>Ugljesa Erceg</author>
+
+    <engines>
+        <engine name="cordova-android" version=">=4.0.0" />
+    </engines>
+
+    <js-module src="www/play_install_referrer.js" name="PlayInstallReferrer">
+        <clobbers target="PlayInstallReferrer" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PlayInstallReferrer">
+                <param name="android-package" value="com.ugi.play_install_referrer.PlayInstallReferrerCordova"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/PlayInstallReferrerCordova.java" target-dir="src/com/ugi/play_install_referrer" />
+        <framework src="com.android.installreferrer:installreferrer:2.1" />
+    </platform>
+</plugin>
