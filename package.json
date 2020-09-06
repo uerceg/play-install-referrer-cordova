@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "cordova-play-install-referrer",
     "cordova_name": "Cordova Play Install Referrer",
     "description": "Play Install Referrer wrapper for Cordova",
