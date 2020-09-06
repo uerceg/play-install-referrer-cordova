@@ -1,6 +1,6 @@
 ### Version 1.0.1 [7th September 2020]
-#### Added
-- Changed repository structure to have README published with plugin package to npm repository.
+#### Changed
+- Changed repository structure to have README published with plugin package to **npm** repository.
 
 ---
 
