@@ -1,0 +1,13 @@
+# osx
+.DS_Store
+
+# example app
+app/
+
+# Git
+.git
+.gitattributes
+.gitignore
+
+# Github
+.github
