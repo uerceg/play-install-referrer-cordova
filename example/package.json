@@ -1,0 +1,24 @@
+{
+  "name": "pir-example",
+  "displayName": "PIR Example",
+  "version": "1.0.0",
+  "description": "Example app for cordova-play-install-referrer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "uerceg",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-android": "^15.1.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  }
+}

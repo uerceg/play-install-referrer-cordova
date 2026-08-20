@@ -1,0 +1,40 @@
+:root {
+    --bg: #000;
+    --green: #AFFFA6;
+    --blue: #A4FFFF;
+    --dim: #777;
+    --red: #FF8A80;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: calc(env(safe-area-inset-top) + 24px) 24px calc(env(safe-area-inset-bottom) + 24px);
+    background: var(--bg);
+    color: var(--dim);
+    font-family: "Source Code Pro", "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1 { margin: 0; color: var(--green); font-size: 22px; }
+p  { margin: 4px 0 0; }
+
+button {
+    display: block;
+    margin: 24px 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--green);
+    font: inherit;
+    font-size: 17px;
+    font-weight: bold;
+}
+button:disabled { color: var(--dim); }
+
+dl { margin: 0; }
+dt { color: var(--dim); }
+dd { margin: 4px 0 16px; color: var(--blue); font-weight: bold; word-break: break-all; }
+dd.error { color: var(--red); }
